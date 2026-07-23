@@ -1,0 +1,31 @@
+generated: '2026-07-19'
+method: searched
+source: https://www.amber.bio/
+host: https://www.amber.bio
+notes: >-
+  Amber Bio is a pre-clinical biotechnology company with a single-page marketing
+  site (Webflow) plus a /careers page. No .well-known discovery surface is
+  published. All probes returned 404. Recorded as honest negative result, not a
+  gap to be filled.
+documents:
+- path: /.well-known/security.txt
+  status: 404
+- path: /.well-known/openid-configuration
+  status: 404
+- path: /.well-known/oauth-authorization-server
+  status: 404
+- path: /.well-known/api-catalog
+  status: 404
+- path: /.well-known/ai-plugin.json
+  status: 404
+- path: /llms.txt
+  status: 404
+- path: /robots.txt
+  status: 200
+  note: sitemap reference only, no agent directives
+- path: /sitemap.xml
+  status: 200
+  note: two URLs total (/ and /careers)
+also_probed:
+- host: https://amber.bio
+  result: identical status codes to www host

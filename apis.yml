@@ -1,22 +1,90 @@
 aid: amber
-name: Amber
-description: Amber is a company surfaced as a portfolio company of a16z and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+name: Amber Bio
+description: 'Amber Bio is a San Francisco-based biotechnology company founded in 2021
+  that is pioneering RNA-based gene editing. Its multi-kilobase RNA writing platform
+  is designed to correct thousands of diverse mutations across a patient population
+  with a single product, rather than requiring an independent therapy for each separate
+  mutation. The company positions the approach as safe (minimal off-target effects),
+  reversible, and capable of edits far larger than conventional base or prime editing,
+  targeting previously undruggable genetic disease populations. Amber Bio launched
+  publicly in August 2023 with an oversubscribed $26M seed round co-led by Playground
+  Global and Andreessen Horowitz Bio + Health. It is a pre-clinical therapeutics company
+  and publishes no public API, developer portal, or SDK surface.'
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://cdn.prod.website-files.com/6245f65e49aca16254e8bad8/62472aefc8c77a733e1635a4_Webclip.png
 url: https://raw.githubusercontent.com/api-evangelist/amber/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - a16z
+- Playground Global
+- Eli Lilly
+- Pillar VC
+- Hummingbird
+- Retinal Degeneration Fund
+- SV Angel
 x-tier: stub
-x-tier-reason: portfolio-lead
+x-tier-reason: no-public-api-surface
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Biotechnology
+- Gene Editing
+- RNA
+- Therapeutics
+- Life Sciences
+- Precision Medicine
+- Pre-Clinical
 apis: []
+common:
+- type: DomainSecurity
+  url: security/amber-domain-security.yml
+- type: Website
+  url: https://www.amber.bio/
+- type: About
+  url: https://www.amber.bio/#about-us
+- type: Team
+  url: https://www.amber.bio/#team
+- type: News
+  url: https://www.amber.bio/#news
+- type: Careers
+  url: https://www.amber.bio/careers
+- type: LinkedIn
+  url: https://www.linkedin.com/company/amber-bio
+- type: WellKnown
+  url: well-known/amber-well-known.yml
+- type: LLMsTxt
+  url: llms/amber-llms.txt
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: minimal
+  artifacts_added: 3
+  pass: local-v1
+  note: >-
+    Stub resolved to Amber Bio (amber.bio) — the a16z Bio + Health seed co-lead.
+    Pre-clinical RNA gene-editing therapeutics company with a single-page Webflow
+    marketing site and a /careers page. No API, developer portal, docs, SDK,
+    package, event, GitHub organization, or .well-known surface exists; the
+    DX/runtime-semantics tier is genuinely N/A rather than missing. Probes:
+    all /.well-known/* and /llms.txt 404; no vulnerability-disclosure program and
+    no trust center; TLS 1.3 + HSTS present, DNSSEC and CAA absent, SPF and DMARC
+    present (dmarc policy none). Site-footer Privacy Policy and Terms of Service
+    are dead "#" anchors, so no pointers were emitted for them. Do not re-queue
+    for API artifact enrichment unless the company ships a developer surface.
