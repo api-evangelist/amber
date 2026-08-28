@@ -10,6 +10,17 @@ description: 'Amber Bio is a San Francisco-based biotechnology company founded i
   publicly in August 2023 with an oversubscribed $26M seed round co-led by Playground
   Global and Andreessen Horowitz Bio + Health. It is a pre-clinical therapeutics company
   and publishes no public API, developer portal, or SDK surface.'
+deliveryModel:
+  model: unknown
+  open_source: false
+  commercial: false
+  callable_host: false
+  label: Delivery model not determined — needs a product licence on record
+  confidence: low
+  source:
+  - none
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
